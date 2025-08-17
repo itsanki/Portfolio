@@ -20,6 +20,11 @@ export const DATA = {
     "Machine Learning",
     "Data Science",
     "Data Visualization",
+    "OpenZeppelin",
+    "Remix",
+    "Web3.js",
+    "The Graph",
+    "MetaMask SDK",
     "OpenCV",
     "YOLOv8",
     "SQL",
@@ -56,9 +61,9 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://dub.sh/aritra-resume",
+        url: "https://dub.sh/ankita-resume",
         icon: Icons.googleDrive,
-        navbar: false,
+        navbar: true,
       },
       X: {
         name: "X",
@@ -86,11 +91,11 @@ export const DATA = {
   work: [
     //Study and Experience
     {
-      company: "ISI Kolkata",
+      company: "Indian Statistical Institute, Kolkata",
       href: "",
       badges: ["Hybrid"],
       location: "Hybrid",
-      title: "AI/ML & LLM Intern",
+      title: "AI-ML & LLM Intern",
       logoUrl: "/isi.png",
       start: "Aug. 2025",
       end: "Present",

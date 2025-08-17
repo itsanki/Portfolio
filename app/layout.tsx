@@ -58,7 +58,11 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl md:max-w-3xl mx-auto py-12 sm:py-24 px-6",
-          fontSans.variable
+          fontSans.variable,
+          "absolute inset-0",
+          "[background-size:20px_20px]",
+          "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
+          "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]",
         )}
       >
         <ThemeProvider
@@ -71,6 +75,7 @@ export default function RootLayout({
             <ShowNavBar />
           </TooltipProvider>
         </ThemeProvider>
+    
       </body>
     </html>
   );
