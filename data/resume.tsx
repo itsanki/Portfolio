@@ -92,7 +92,7 @@ export const DATA = {
     //Study and Experience
     {
       company: "Indian Statistical Institute, Kolkata",
-      href: "https://dub.sh/ISI_Ankita",
+      href: "#work",
       badges: ["Hybrid"],
       location: "Hybrid",
       title: "Research Intern",
