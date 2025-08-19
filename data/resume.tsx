@@ -92,7 +92,7 @@ export const DATA = {
     //Study and Experience
     {
       company: "Indian Statistical Institute, Kolkata",
-      href: "",
+      href: "https://dub.sh/ISI_Ankita",
       badges: ["Hybrid"],
       location: "Hybrid",
       title: "Research Intern",
@@ -103,7 +103,7 @@ export const DATA = {
     },
     {
       company: "IIIT Allahabad",
-      href: "https://drive.google.com/file/d/1p1EKgwoH82i4Fieug6OMkzf6iLuxPmIl/view?usp=sharing",
+      href: "https://dub.sh/IIITA-AIR2025-Ankita",
       badges: ["Onsite"],
       location: "Offline",
       title: "Summer Trainee - NLP & Robotics",
@@ -114,7 +114,7 @@ export const DATA = {
     },
     {
       company: "Scale AI",
-      href: "",
+      href: "#work",
       badges: ["Remote"],
       location: "Offline",
       title: "LLM Model Trainee",

@@ -57,7 +57,8 @@ export const ResumeCard = ({
               <div className="w-full flex items-center justify-between gap-x-2 text-base">
                 <Link
                   href={href || "#"}
-                  target="_blank"
+                  // target="_blank"
+                  target={href && !href.startsWith("#") ? "_blank" : undefined}
                   className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm"
                 >
                   {title}
