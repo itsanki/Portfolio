@@ -136,7 +136,7 @@ export const DATA = {
     {
       school: "Sunshine School",
       href: "https://sunshineschoolbirpara.in/",
-      degree: "Senior Secondary-ISC & ICSE-93%",
+      degree: "Senior Secondary - ISC",
       logoUrl: "/sschool.png",
       start: "2021",
       end: "2023",
