@@ -92,7 +92,7 @@ export const DATA = {
     //Study and Experience
     {
       company: "Indian Statistical Institute, Kolkata",
-      href: "#work",
+      href: "https://github.com/itsanki/Google-Colab",
       badges: ["Hybrid"],
       location: "Hybrid",
       title: "Research Intern",
